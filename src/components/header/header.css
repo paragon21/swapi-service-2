@@ -1,0 +1,39 @@
+
+.body__header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px 30px;
+}
+
+.logo__text {
+  font-weight: bold;
+  font-size: 28px;
+  color: white;
+}
+
+.logo__text:hover {
+  color: grey;
+}
+
+.header__menu {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu__item {
+  list-style: none;
+}
+
+
+.menu__item a {
+  border-radius: 5px;
+  padding: 7px 15px;
+}
+
+.menu__item a:hover {
+  color: #00bc8c;
+  background-color: #303030;
+}
